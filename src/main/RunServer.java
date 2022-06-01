@@ -1,4 +1,4 @@
-import controller.manager.HandleMenu;
+import controller.manager.HandleMenuManager;
 import model.input.Input;
 
 import java.io.BufferedReader;
@@ -59,9 +59,9 @@ public class RunServer extends Thread {
     }
 
     public static void main(String[] args) {
-        HandleMenu handleMenu = new HandleMenu();
+        HandleMenuManager handleMenuManager = new HandleMenuManager();
         RunServer runServer = new RunServer();
         runServer.start();
-        handleMenu.start();
+        handleMenuManager.start();
     }
 }

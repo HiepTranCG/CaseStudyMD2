@@ -1,6 +1,6 @@
 package model.player;
 
-import file.ReadAndWriteAccountFile;
+import iofile.ReadAndWriteAccountFile;
 
 import java.util.ArrayList;
 import java.util.List;
